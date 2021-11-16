@@ -1,0 +1,53 @@
+#button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+.btn_submit{
+    background-color: lightgreen;
+}
+.btn_reset{
+background-color: lightsalmon;
+}
+.titulo{
+    background-color: black;
+    color: azure;
+    font-style: bold;
+    text-align: center;
+    margin: 2rem auto;
+}
+.form{
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container{
+    max-width: 450px;
+    height: auto;
+    background-image: url(set_1.png);
+    background-size: 450px;
+    margin: 15px auto;
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    background: #a8cdf3;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black
+}
+
+.input {
+    width: 400px;
+    background: whitesmoke;
+    padding: 10px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+    border: 5px solid #1f53c5;
+    font-family: Arial;
+    font-size: 18px;
+}
